@@ -4,15 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.api_tarot"
-    compileSdk {
-        version = release(37)
-    }
+    namespace = "com.example.apitarotuwu"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.api_tarot"
+        applicationId = "com.example.apitarotuwu"
         minSdk = 24
-        targetSdk = 37
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
